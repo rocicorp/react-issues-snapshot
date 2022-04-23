@@ -1,15 +1,24 @@
+# About
+
+This is all the github issues for the `facebook/react` project and their associated comments.
+
+# Notes on the schema
+
+The `issues.json` file contains all the proper issues (not PRs) in `facebook/react`. But the `comments.json` contains comments from both issues *and* PRs. So for our purposes we need to filter out those non-issue-comments when importing.
+
+# Where it came from
+
 This was remarkably easy to get once I figured out how.
 
-A company called Clickhouse that makes a fast analytics database
-maintains a searchable index of all of github. They have a great
-little playground where you can do queries, here:
+A company called Clickhouse that makes a fast analytics database maintains a searchable index of all of GitHub as a demo.
+
+They have a great little playground where you can do queries, here:
 
 https://ghe.clickhouse.tech/
 
 The schema is also described there.
 
-To actually export the data, you need the client program, which
-you download here:
+To actually export the data, you need the client program, which you download here:
 
 https://clickhouse.com/ (under "Quick Start")
 
