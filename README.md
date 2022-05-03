@@ -1,10 +1,14 @@
 # About
 
-This is all the github issues for the `facebook/react` project and their associated comments.
+This repo provides tooling to be able to pull github issues utilizing multiple strategies. 
+- Github Syncer 
+- Clickhouse
+Currently this is all the github issues for the `facebook/react` project and their associated comments.
 
+---
 # Notes on the schema
 
-The `issues.json` file contains all the proper issues (not PRs) in `facebook/react`. But the `comments.json` contains comments from both issues *and* PRs. So for our purposes we need to filter out those non-issue-comments when importing.
+The `issues.json` file contains all the proper issues (not PRs) in `facebook/react`. But the `comments.json` contains comments from both issues _and_ PRs. So for our purposes we need to filter out those non-issue-comments when importing.
 
 # Where it came from
 
